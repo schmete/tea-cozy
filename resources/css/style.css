@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  margin: 0 auto;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -44,11 +46,12 @@ nav a {
   width: 1200px;
   margin-top: 69px auto auto 0px;
   z-index: 5;
-  background-image: URL("../images/img-mission-background.jpg")
+  background-image: URL("../images/img-mission-background.jpg");
   flex-shrink: 1;
 }
 #mission.statment {
   align-items: center;
+  justify-content: center;
   width: 100%;
   background-color: black;
   z-index: 6;
@@ -67,11 +70,15 @@ nav a {
   justify-content: center;
   width: 100%;
 }
+.featured-title h2,
+.featured-title h4 {
+  margin: 0 0;
+}
 .menu-item {
   display: flex;
   flex-direction: column;
 }
-.menu img {
+.menu-item img {
   height: 200px;
   width: 300px;
   margin-bottom: 10px;

@@ -1,4 +1,4 @@
-/*v0.02*/
+/*v0.03*/
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -9,27 +9,35 @@ body {
 }
 header {
   display: flex;
+  position: fixed;
   background-color: black;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
+  align-items: center;
   height: 69px;
   position: fixed;
 }
-header img {
+.logo img {
   height: 50px
   margin-left: 10px;
+  flex-shrink: 1;
+}
+nav span {
+  margin: 0px 8px;
 }
 nav a {
   text-decoration: underline;
+  color: seashell;
 }
 #mission {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
-}
-#mission img{
   height: 700px;
+  width: 1200px;
 }
 #mission.statment {
   align-items: center;
+  background-color: black;
 }

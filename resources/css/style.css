@@ -1,4 +1,4 @@
-/*v0.03*/
+/*v0.04*/
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -16,6 +16,7 @@ header {
   align-items: center;
   height: 69px;
   position: fixed;
+  z-index: 1;
 }
 .logo img {
   height: 50px
@@ -36,8 +37,10 @@ nav a {
   justify-content: center;
   height: 700px;
   width: 1200px;
+  z-index: 5;
 }
 #mission.statment {
   align-items: center;
   background-color: black;
+  z-index: 4;
 }

@@ -5,7 +5,9 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
+/* HEADER STYLES */
 header {
   display: flex;
   position: fixed;
@@ -19,7 +21,10 @@ header {
   width: 100%;
 }
 .logo {
-  height: 50px
+  align-items: center;
+}
+.logo img{
+  height: 50px;
   margin-left: 10px;
 }
 nav span {
@@ -29,8 +34,11 @@ nav a {
   text-decoration: underline;
   color: seashell;
 }
+
+/* MISSION STYLES */
 #mission {
   display: flex;
+  flex-direction: column;
   position: absolute;
   align-items: center;
   justify-content: center;
@@ -42,6 +50,22 @@ nav a {
 #mission.statment {
   position: absolute;
   align-items: center;
+  width: 100%;
   background-color: black;
   z-index: 6;
 }
+
+/* FEATURED STYLES */
+#featured {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/* LOCATIONS STYLES */

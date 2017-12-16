@@ -58,7 +58,6 @@ nav a {
 }
 
 /* FEATURED STYLES */
-/*
 #featured {
   display: flex;
   width: 1000px;
@@ -84,5 +83,28 @@ nav a {
   width: 300px;
   margin-bottom: 10px;
 }
-*/
+
 /* LOCATIONS STYLES */
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  background-img: URL("../images/img-locations-background.jpg");
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.location-box {
+  display: flex;
+  align-content: center;
+  height: 300px;
+  width: 300px;
+  margin: 15px 40px;
+  opacity: 1;
+}

@@ -44,7 +44,7 @@ nav a {
   width: 1200px;
   margin-top: 69px auto auto 0px;
   z-index: 5;
-  background-image: URL("./resources/images/img-mission-background.jpg")
+  background-image: URL("../images/img-mission-background.jpg")
   flex-shrink: 1;
 }
 #mission.statment {
@@ -60,6 +60,16 @@ nav a {
   width: 1000px;
   justify-content: center;
   flex-wrap: wrap;
+}
+.featured-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
 }
 .menu img {
   height: 200px;

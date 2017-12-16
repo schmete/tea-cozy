@@ -1,3 +1,4 @@
+/*v0.02*/
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -20,4 +21,15 @@ header img {
 }
 nav a {
   text-decoration: underline;
+}
+#mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mission img{
+  height: 700px;
+}
+#mission.statment {
+  align-items: center;
 }

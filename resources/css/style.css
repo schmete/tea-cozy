@@ -34,29 +34,42 @@ header {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  z-index: 1;
   position: fixed;
+  top: 0;
+  left: 0;
   margin: 0;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
-header.logo {
+.logo img{
   height: 50px;
   padding-left: 10px;
 }
 
+nav {
+  display: flex;
+  align-content: center;
+}
+
 nav a {
   text-decoration: underline;
+  color: seashell;
   padding: 5px;
 }
 
 /* mission */
 #mission {
   align-content: center;
+  padding-top: 70px;
 }
 
 .part1 {
+  height: 700px;
+  width: 1200px;
   background-image: URL("../images/img-mission-background.jpg");
 }
 
@@ -76,12 +89,16 @@ nav a {
 
 .menu {
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.menu-item {
   height: 200px;
   width: 300px;
 }

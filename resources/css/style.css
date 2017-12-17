@@ -1,24 +1,35 @@
 body {
   display: flex;
-  margin: 0 auto;
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  margin: 0;
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
 /* HEADER STYLES */
 header {
-  display: flex;
   position: fixed;
   background-color: black;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
   height: 69px;
-  position: fixed;
   z-index: 10;
   width: 100%;
 }
@@ -39,17 +50,15 @@ nav a {
 
 /* MISSION STYLES */
 #mission {
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 700px;
   width: 1200px;
-  margin-top: 69px auto auto 0px;
   z-index: 5;
   background-image: URL("../images/img-mission-background.jpg");
   flex-shrink: 1;
 }
-#mission.statment {
+.statment {
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -93,7 +102,7 @@ nav a {
   align-items: center;
   height: 500px;
   width: 1200px;
-  background-img: URL("../images/img-locations-background.jpg");
+  background-image: URL("../images/img-locations-background.jpg");
 }
 .boxes {
   display: flex;
@@ -108,3 +117,5 @@ nav a {
   margin: 15px 40px;
   opacity: 1;
 }
+
+/* FOOTER STYLES */

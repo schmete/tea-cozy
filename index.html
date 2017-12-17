@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--v0.11-->
+<!--v0.14-->
 <html>
   <head>
     <meta charset="utf-8">
@@ -9,21 +9,22 @@
   <body>
 
     <!--BEGIN HEADER-->
-    <div class=header>
-      <header>
-        <div class="logo">
-          <img src="./resources/images/img-tea-cozy-logo.png">
-        </div>
-        <nav>
-          <span><a href="#mission">Mission</a></span>
-          <span><a href="#featured">Featured Tea</a></span>
-          <span><a href="#locations">Locations</a></span>
-        </nav>
-      </header>
-    </div>
+    <header class="flex">
+      <div class="logo">
+        <img src="./resources/images/img-tea-cozy-logo.png">
+      </div>
+      <nav>
+        <span><a href="#mission">Mission</a></span>
+        <span><a href="#featured">Featured Tea</a></span>
+        <span><a href="#locations">Locations</a></span>
+      </nav>
+    </header>
 
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="main">
+    
     <!--BEGIN MISSION STATEMENT-->
-    <div id="mission">
+    <div id="mission flex">
       <div class="statement">
         <h2>Our Mission</h2>
         <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
@@ -31,12 +32,12 @@
     </div>
 
     <!--BEGIN TEA OF THE MONTH-->
-    <div id="featured">
+    <div id="featured" class="flex">
       <div class="featured-title">
         <h2>Tea of the Month</h2>
         <h4> What's Steeping at The Tea Cozy?</h4>
       </div>
-      <div class="menu">
+      <div class="menu flex">
         <div class="menu-item">
           <img src="./resources/images/img-berryblitz.jpg">
           <h4>Fall Berry Blitz Tea</h4>
@@ -62,7 +63,7 @@
 
     <!-- BEGIN LOCATIONS -->
 <!--
-    <div id="locations">
+    <div id="locations" class="flex">
       <h2>Locations</h2>
       <div class="boxes"
         <div class="loc-box">
@@ -84,6 +85,19 @@
           <p>Portland, Maine</p>
         </div>
       </div>
+    </div>
+-->
+    </div>
+    <!-- END MAIN CONTENT -->
+<!-- BEGIN FOOTER -->
+<!--
+    <div class="contact" class="flex">
+      <h2>The Tea Cozy</h2>
+      <h5>contact@theteacozy.com</h5>
+      <h5>917-555-8904</h5>
+    </div>
+    <div class="copy">
+      <h5>copyright The Tea Cozy 2017</h5>
     </div>
 -->
 

@@ -16,17 +16,21 @@ body {
 .main {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 70;
   width: 1200px;
 }
 
 h2 {
   background-color: black;
   padding: 15px;
+  margin: 0px;
 }
 
 h4 {
   background-color: black;
   padding: 10px;
+  margin: 0px;
 }
 
 /* header */
@@ -85,6 +89,7 @@ nav a {
 /* featured */
 #featured {
   width: 1000px;
+  flex-direction: column;
 }
 
 .featured-title {
@@ -100,6 +105,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0px 10px;
 }
 
 .menu-item img{

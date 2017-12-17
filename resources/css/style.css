@@ -29,11 +29,12 @@ header {
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
-  height: 69px;
+  height: 68px;
   z-index: 10;
   width: 100%;
 }
 .logo {
+  display: flex;
   align-items: center;
 }
 .logo img{
@@ -58,7 +59,7 @@ nav a {
   background-image: URL("../images/img-mission-background.jpg");
   flex-shrink: 1;
 }
-.statment {
+.statment h2 h4{
   align-items: center;
   justify-content: center;
   width: 100%;

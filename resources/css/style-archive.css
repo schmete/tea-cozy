@@ -1,0 +1,136 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+h2 {
+  background-color: black;
+  margin: 0;
+  padding: 15;
+}
+h4 {
+  background-color: black;
+  margin: 0;
+  padding: 10;
+}
+
+/* HEADER STYLES */
+header {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  z-index: 10;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 50px;
+  margin-left: 10px;
+}
+nav span {
+  margin: 0px 8px;
+}
+nav a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* MISSION STYLES */
+#mission {
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  padding-top: 70px;
+  z-index: 5;
+  background-image: URL("../images/img-mission-background.jpg");
+  flex-shrink: 1;
+  margin-bottom: 30px;
+}
+.statment {
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  z-index: 6;
+}
+
+/* FEATURED STYLES */
+#featured {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.featured-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.featured-title h2 {
+  margin-bottom: 30px;
+}
+.featured-title h4 {
+  
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+}
+.menu-item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+/* LOCATIONS STYLES */
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  background-image: URL("../images/img-locations-background.jpg");
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.location-box {
+  display: flex;
+  align-content: center;
+  height: 300px;
+  width: 300px;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
+/* FOOTER STYLES */

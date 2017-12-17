@@ -22,14 +22,26 @@ body {
   flex-wrap: wrap;
 }
 
+h2 {
+  background-color: black;
+  margin: 0;
+  padding: 15;
+}
+h4 {
+  background-color: black;
+  margin: 0;
+  padding: 10;
+}
+
 /* HEADER STYLES */
 header {
+  display: flex;
   position: fixed;
   background-color: black;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
-  height: 68px;
+  height: 69px;
   z-index: 10;
   width: 100%;
 }
@@ -54,16 +66,16 @@ nav a {
   align-items: center;
   justify-content: center;
   height: 700px;
-  width: 1200px;
+  padding-top: 70px;
   z-index: 5;
   background-image: URL("../images/img-mission-background.jpg");
   flex-shrink: 1;
+  margin-bottom: 30px;
 }
-.statment h2 h4{
+.statment {
   align-items: center;
   justify-content: center;
-  width: 100%;
-  background-color: black;
+  width: 1200px;
   z-index: 6;
 }
 
@@ -80,9 +92,11 @@ nav a {
   justify-content: center;
   width: 100%;
 }
-.featured-title h2,
+.featured-title h2 {
+  margin-bottom: 30px;
+}
 .featured-title h4 {
-  margin: 0 0;
+  
 }
 .menu-item {
   display: flex;
@@ -91,7 +105,7 @@ nav a {
 .menu-item img {
   height: 200px;
   width: 300px;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 /* LOCATIONS STYLES */

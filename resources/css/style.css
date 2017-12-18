@@ -149,6 +149,7 @@ nav a {
   height: 300px;
   width: 300px;
   margin: 15px 20px;
+  background-color: black;
 }
 
 /* footer */
@@ -163,7 +164,6 @@ nav a {
 .copy {
   text-align: left;
   margin-left: 20px;
-  
   display: flex;
   justify-content: flex-start;
   width: 100%;

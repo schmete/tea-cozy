@@ -22,18 +22,15 @@ body {
   position: relative;
   top: 70px;
   width: 1200px;
+  margin: 0px auto;
 }
 
 h2 {
-  background-color: black;
-  padding: 15px;
-  margin: 0px;
+  margin: 15px;
 }
 
 h4 {
-  background-color: black;
-  padding: 10px;
-  margin: 0px;
+  margin: 10px;
 }
 
 /* header */
@@ -53,6 +50,7 @@ header {
 }
 
 .logo {
+  display: flex;
   align-items: center;
 }
 
@@ -89,6 +87,7 @@ nav a {
   background-color: black;
 }
 
+
 /* featured */
 #featured {
   width: 1000px;
@@ -98,6 +97,7 @@ nav a {
 
 .featured-title {
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .menu {
@@ -109,10 +109,41 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0px 10px;
+  margin: 15px 15px 10px 15px;
 }
 
 .menu-item img{
   height: 200px;
   width: 300px;
 }
+
+.menu-item h4 {
+  padding-bottom: 5px;
+}
+
+/* locations */
+#locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 300px;
+  margin: 40px;
+}
+
+/* footer */
+
+

@@ -32,6 +32,9 @@ h2 {
 h4 {
   margin: 10px;
 }
+h5 {
+  margin: 10px;
+}
 
 /* header */
 header {
@@ -93,6 +96,7 @@ nav a {
   width: 1000px;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .featured-title {
@@ -109,7 +113,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 15px 15px 10px 15px;
+  margin: 7px;
 }
 
 .menu-item img{
@@ -117,33 +121,43 @@ nav a {
   width: 300px;
 }
 
-.menu-item h4 {
-  padding-bottom: 5px;
-}
 
 /* locations */
-#locations {
+#locations{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 500px;
   width: 1200px;
+  background-image: URL("../images/img-locations-background.jpg");
 }
 
-.menu {
+.boxes {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.menu-item {
+.loc-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   height: 300px;
   width: 300px;
-  margin: 40px;
+  margin: 15px 20px;
 }
 
 /* footer */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom; 30px;
+}
 
-
+.copy {
+  text-align: left;
+  margin-left: 20px;
+}

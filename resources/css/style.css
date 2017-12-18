@@ -1,5 +1,8 @@
 /*general*/
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -160,4 +163,10 @@ nav a {
 .copy {
   text-align: left;
   margin-left: 20px;
+  
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
 }

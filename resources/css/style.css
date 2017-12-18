@@ -6,6 +6,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0px;
 }
 
 .flex {
@@ -17,8 +18,9 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   position: relative;
-  top: 70;
+  top: 70px;
   width: 1200px;
 }
 
@@ -73,7 +75,6 @@ nav a {
 /* mission */
 #mission {
   align-items: center;
-  margin-top: 70px;
   margin-bottom: 40px;
 }
 
